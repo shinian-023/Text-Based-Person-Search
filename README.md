@@ -1,6 +1,37 @@
 <!-- README table section generated from Fig. 4 taxonomy in the uploaded TBPS survey. -->
 <!-- Note: rows follow the figure taxonomy; bibliographic metadata were normalized by method name where the figure reference numbers appeared inconsistent. -->
+## Table of Contents
 
+- [1️⃣ External Knowledge](#external-knowledge)
+  - [Pose Knowledge](#pose-knowledge)
+  - [Attribute Knowledge](#attribute-knowledge)
+  - [Color Knowledge](#color-knowledge)
+  - [Body Parts Knowledge](#body-parts-knowledge)
+- [2️⃣ Metric Learning](#metric-learning)
+  - [Identity (ID) Loss](#identity-id-loss)
+  - [Matching Loss](#matching-loss)
+  - [Ranking Loss](#ranking-loss)
+  - [Adversarial Loss](#adversarial-loss)
+  - [MLM/MIM Loss](#mlmmim-loss)
+  - [Other Loss](#other-loss)
+- [3️⃣ Encoder](#encoder)
+  - [CNN-RNN/CNN-BERT Encoders](#cnn-rnncnn-bert-encoders)
+  - [Transformer-Based Encoders](#transformer-based-encoders)
+  - [VLM-Based Encoders](#vlm-based-encoders)
+- [4️⃣ Modality Interaction](#modality-interaction)
+  - [Intra-Modality Interaction](#intra-modality-interaction)
+    - [Visual Intra-modal Interaction](#visual-intra-modal-interaction)
+    - [Textual Intra-modal Interaction](#textual-intra-modal-interaction)
+    - [Dual Intra-modal Interaction](#dual-intra-modal-interaction)
+  - [Inter-Modality Interaction](#inter-modality-interaction)
+    - [Global Feature Interaction](#global-feature-interaction)
+    - [Local Feature Interaction](#local-feature-interaction)
+    - [Multi-Granularity Feature Interaction](#multi-granularity-feature-interaction)
+    - [Proxy Task-Guided Interaction](#proxy-task-guided-interaction)
+    - [Large Model-Driven Interaction](#large-model-driven-interaction)
+  - [Hybrid Interaction Approach](#hybrid-interaction-approach)
+
+---
 ## External Knowledge
 
 ### Pose Knowledge
